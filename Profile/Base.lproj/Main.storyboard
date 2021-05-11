@@ -22,9 +22,9 @@
                                     <constraint firstAttribute="height" constant="320" id="A8h-0p-MQw"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iPhoneメンターのフィルだよ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7b-RR-tmQ">
-                                <rect key="frame" x="16" y="343" width="343" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhoneメンターのフィルだよ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7b-RR-tmQ">
+                                <rect key="frame" x="16" y="371" width="343" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -87,9 +87,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC8-wv-0TF">
-                                <rect key="frame" x="16" y="307" width="49" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC8-wv-0TF">
+                                <rect key="frame" x="16" y="326" width="343" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -98,16 +97,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="d7b-RR-tmQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4nv-Da-TaX"/>
                             <constraint firstItem="7DK-z5-NfU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4o2-z5-fCq"/>
-                            <constraint firstItem="d7b-RR-tmQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="51o-TV-HS9"/>
                             <constraint firstItem="7DK-z5-NfU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="D4w-qi-I7j"/>
                             <constraint firstAttribute="trailing" secondItem="nCm-VF-2Xs" secondAttribute="trailing" constant="16" id="F9D-0L-p90"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d7b-RR-tmQ" secondAttribute="trailing" constant="16" id="Oy7-Rf-daa"/>
-                            <constraint firstItem="d7b-RR-tmQ" firstAttribute="top" secondItem="7DK-z5-NfU" secondAttribute="bottom" constant="16" id="RJD-Wc-CBh"/>
+                            <constraint firstItem="kC8-wv-0TF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="326" id="LVT-nm-zBt"/>
+                            <constraint firstItem="kC8-wv-0TF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Lwd-vc-fBS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d7b-RR-tmQ" secondAttribute="trailing" constant="16" id="Ozt-Ra-pje"/>
+                            <constraint firstItem="d7b-RR-tmQ" firstAttribute="top" secondItem="kC8-wv-0TF" secondAttribute="bottom" constant="16" id="R2E-Ip-Y6U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kC8-wv-0TF" secondAttribute="trailing" constant="16" id="dSk-Ir-5K4"/>
                             <constraint firstItem="7DK-z5-NfU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iNk-ux-L5p"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d7b-RR-tmQ" secondAttribute="trailing" constant="16" id="oAd-xB-XGk"/>
-                            <constraint firstItem="d7b-RR-tmQ" firstAttribute="top" secondItem="7DK-z5-NfU" secondAttribute="bottom" constant="16" id="rya-EF-JFm"/>
+                            <constraint firstItem="d7b-RR-tmQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rIh-ch-82B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nCm-VF-2Xs" secondAttribute="bottom" constant="32" id="vSO-cu-gbd"/>
                             <constraint firstItem="nCm-VF-2Xs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="y2f-Zc-552"/>
                         </constraints>
